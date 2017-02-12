@@ -171,3 +171,14 @@ function wpgtm_datalayer_data()
  echo '</script>';
 
 }
+
+
+/////////// PLUGIN UPDATE CHECKER ***********************
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/luizeof/wp-gtm-datalayer/',
+    __FILE__,
+    'wp-gtm-datalayer'
+);
+$myUpdateChecker->setBranch('master');
+/////////// **********************************************
