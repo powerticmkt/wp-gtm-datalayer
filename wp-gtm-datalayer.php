@@ -115,7 +115,7 @@ function wpgtmdl_datalayer_data() {
 				if ( $_post_cats ) {
 					$dataLayer["gtmdlPageCategory"] = array();
 					foreach( $_post_cats as $_one_cat ) {
-						$dataLayer["gtmdlPageCategory"][0] = $_one_cat->slug;
+						$dataLayer["gtmdlPageCategory"] = $_one_cat[0]->slug;
 					}
 				}
 
@@ -159,7 +159,7 @@ function wpgtmdl_datalayer_data() {
 		$dataLayer["gtmdlLoginState"] = "anonymous";
 	}
 
- echo '<!-- Google Tag Manager Data Layer by luizeof -->';
+ echo '<!-- begin Google Tag Manager Data Layer by luizeof -->';
  echo '<script>';
 	echo 'window.dataLayer = window.dataLayer || [];';
 	echo 'window.dataLayer.push({';
@@ -168,6 +168,7 @@ function wpgtmdl_datalayer_data() {
 		endforeach;
 	echo '});';
  echo '</script>';
+ echo '<!-- end Google Tag Manager Data Layer by luizeof -->';
 
 } // wpgtmdl_datalayer_data()
 
@@ -175,9 +176,9 @@ function wpgtmdl_datalayer_data() {
 /////////// PLUGIN UPDATE CHECKER ***********************
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/luizeof/wp-gtmdl-datalayer/',
+    'https://github.com/luizeof/wp-gtm-datalayer/',
     __FILE__,
-    'wp-gtmdl-datalayer'
+    'wp-gtm-datalayer'
 );
 $myUpdateChecker->setBranch('master');
 /////////// **********************************************
