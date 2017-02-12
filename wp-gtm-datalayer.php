@@ -3,7 +3,7 @@
  * Plugin Name: Google Tag Manager DataLayer
  * Plugin URI: https://github.com/luizeof/wp-gtmdl-datalayer
  * Description: Generate a Google Tag Manager DataLayer with a lot of data
- * Version: 0.9.0
+ * Version: 0.9.2
  * Author: luizeof
  * Author URI: http://luizeof.com.br
  * License: GPL3
