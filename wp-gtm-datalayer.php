@@ -113,17 +113,15 @@ function wpgtmdl_datalayer_data() {
 
 				$_post_cats = get_the_category();
 				if ( $_post_cats ) {
-					$dataLayer["gtmdlPageCategory"] = array();
 					foreach( $_post_cats as $_one_cat ) {
-						$dataLayer["gtmdlPageCategory"] = $_one_cat[0]->slug;
+						$dataLayer["gtmdlPageCategory"] = $_one_cat->slug;
 					}
 				}
 
 				$_post_tags = get_the_tags();
 				if ( $_post_tags ) {
-					$dataLayer["gtmdlPageAttributes"] = array();
 					foreach( $_post_tags as $_one_tag ) {
-						$dataLayer["gtmdlPageAttributes"] = $_one_tag[0]->slug;
+						$dataLayer["gtmdlPageAttributes"] = $_one_tag->slug;
 					}
 				}
 
