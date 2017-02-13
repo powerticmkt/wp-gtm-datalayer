@@ -152,9 +152,9 @@ function wpgtmdl_datalayer_data() {
 	endif;
 
 	if ( is_user_logged_in() ) {
-		$dataLayer["gtmdlLoginState"] = "logged";
+		$dataLayer["gtmdlLogin"] = "logged";
 	} else {
-		$dataLayer["gtmdlLoginState"] = "anonymous";
+		$dataLayer["gtmdlLogin"] = "anonymous";
 	}
 
  echo '<!-- begin Google Tag Manager Data Layer by luizeof -->';
