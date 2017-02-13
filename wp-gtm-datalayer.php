@@ -123,7 +123,7 @@ function wpgtmdl_datalayer_data() {
 				if ( $_post_tags ) {
 					$dataLayer["gtmdlPageAttributes"] = array();
 					foreach( $_post_tags as $_one_tag ) {
-						$dataLayer["gtmdlPageAttributes"][] = $_one_tag->slug;
+						$dataLayer["gtmdlPageAttributes"] = $_one_tag[0]->slug;
 					}
 				}
 
