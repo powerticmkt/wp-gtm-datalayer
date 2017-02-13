@@ -13,7 +13,7 @@ After install and activate the plugin your Google Tag Manager Data Layer it's fu
 
 Go to Google Data Layer Panel and Enable Preview Mode to see all variables available on your Data Layer:
 
-### Wordpress Variables
+#### Wordpress Variables
 
 - **gtmdlPagePostType**: Returns the post type
 - **gtmdlPageTemplate**: Returns the post template
