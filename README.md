@@ -1,15 +1,17 @@
-# wp-gtm-datalayer
-Google Tag Manager DataLayer with all wordpress info
+# Google Tag Manager DataLayer for Wordpress
 
-##Install
+Google Tag Manager DataLayer plugin put all wordpress info from platform, woocommerce,
+user-agent, analytics utm and more on your GTM DataLayer.
+
+##How to Install
 
 Just download the latest version from Github here: https://github.com/luizeof/wp-gtm-datalayer/archive/master.zip
 
-After install and activate the plugin your Google Tag Manager Data Layer it's full of info.
-
-- This plugin is not listed on Wordpress directory due restrictions
+Important: This plugin is not listed on Wordpress directory until release of first stable version
 
 ##Usage
+
+After install and activate the plugin your Google Tag Manager Data Layer it's full of info on head tag.
 
 Go to Google Data Layer Panel and Enable Preview Mode to see all variables available on your Data Layer:
 
