@@ -109,7 +109,7 @@ function wpgtmdl_datalayer_data() {
 
 		if ( is_singular() ) {
 				$dataLayer["gtmdlPagePostType"] = get_post_type();
-				$dataLayer["gtmdlPagePostType2"] = "single-".get_post_type();
+				$dataLayer["gtmdlPageTemplate"] = "single";
 
 				$_post_cats = get_the_category();
 				if ( $_post_cats ) {
@@ -121,7 +121,7 @@ function wpgtmdl_datalayer_data() {
 				$_post_tags = get_the_tags();
 				if ( $_post_tags ) {
 					foreach( $_post_tags as $_one_tag ) {
-						$dataLayer["gtmdlPageAttributes"] = $_one_tag->slug;
+						$dataLayer["gtmdlPageTags"] = $_one_tag->slug;
 					}
 				}
 
