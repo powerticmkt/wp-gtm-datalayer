@@ -1,4 +1,4 @@
-# Google Tag Manager DataLayer for Wordpress
+# Google Tag Manager Data Layer by Powertic
 
 Google Tag Manager DataLayer plugin put all wordpress info from platform, woocommerce,
 user-agent, analytics utm and more on your GTM DataLayer.
