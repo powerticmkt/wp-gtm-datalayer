@@ -5,7 +5,7 @@ user-agent, analytics utm and more on your GTM DataLayer.
 
 ## How to Install
 
-Just download the latest version from Github here: https://github.com/luizeof/wp-gtm-datalayer/archive/master.zip
+Just download the latest version from Github here: https://github.com/powerticmkt/wp-gtm-datalayer/archive/master.zip
 
 Important: This plugin is not listed on Wordpress directory until release of first stable version.
 
