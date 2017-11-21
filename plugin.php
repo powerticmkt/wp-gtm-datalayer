@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Google Tag Manager DataLayer by Powertic
+ * Plugin Name: Google Tag Manager DataLayer
  * Plugin URI: https://github.com/powertic/wp-gtm-datalayer
  * Description: Google Tag Manager DataLayer with Wordpress Data
- * Version: 1.0.0-beta1
+ * Version: 1.0.0-beta2
  * Author: Powertic
  * Author URI: https://powertic.com
  * License: GPL3
