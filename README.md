@@ -17,101 +17,96 @@ Go to Google Data Layer Panel and Enable Preview Mode to see all variables avail
 
 ### Wordpress Variables
 
-`gtmdlPagePostType`:
+`gtmPagePostType`:
 Return the post type
 
-`gtmdlPageTemplate`:
+`gtmPageTemplate`:
 Return the post template
 
-`gtmdlPageCategory`:
+`gtmPageCategory`:
 Return the main posy category
 
-`gtmdlPageTags`:
+`gtmPageTags`:
 Return the all post tags with commas
 
-`gtmdlPagePostAuthorID`:
+`gtmPagePostAuthorID`:
 Return the ID of author of post/page
 
-`gtmdlPagePostAuthor`:
+`gtmPagePostAuthor`:
 Return the Author name of post/page
 
-`gtmdlPagePostDate`:
+`gtmPagePostDate`:
 Return the post publish date
 
-`gtmdlPagePostDateYear`:
+`gtmPagePostDateYear`:
 Return the year of post publish date
 
-`gtmdlPagePostDateMonth`:
+`gtmPagePostDateMonth`:
 Return the month of post publish date
 
-`gtmdlPagePostDateDay`:
+`gtmPagePostDateDay`:
 Return the day of post publish date
 
-`gtmdlUserEmail`:
+`gtmUserEmail`:
 Return the current user e-mail
 
-`gtmdlUserType`:
+`gtmUserType`:
 Return the current user role
 
-`gtmdlUserId`:
+`gtmUserId`:
 Return the current user ID
 
-`gtmdlLogin`:
+`gtmLogin`:
 Return the status "logged" or "anonymous"
 
 ### User Agent / Browser Variables
 
-`gtmdlBrowserName`
+`gtmBrowserName`
 Return the Browser name
 
-`gtmdlBrowserVersion`
+`gtmBrowserVersion`
 Return the browser version
 
-`gtmdlBrowserEngineName`
+`gtmBrowserEngineName`
 
-`gtmdlBrowserEngineVersion`
+`gtmBrowserEngineVersion`
 
-`gtmdlOsName`
+`gtmOsName`
 
-`gtmdlOsVersion`
+`gtmOsVersion`
 
-`gtmdlDeviceType`
+`gtmDeviceType`
 
-`gtmdlDeviceManufacturer`
+`gtmDeviceManufacturer`
 
-`gtmdlDeviceModel`
+`gtmDeviceModel`
 
-`gtmdlReferer`
+`gtmReferer`
 
 ### GeoLocation Variables
 
-`gtmdlGeoCountry`
+`gtmGeoCountry`
 
-`gtmdlGeoCountryCode`
+`gtmGeoCountryCode`
 
-`gtmdlGeoRegion`
+`gtmGeoRegion`
 
-`gtmdlGeoRegionName`
+`gtmGeoRegionName`
 
-`gtmdlGeoCity`
-
-`gtmdlGeoTimezone`
-
-`gtmdlGeoISP`
-
+`gtmGeoCity`
 
 ### Google Analytics UTM Variables
 
-`gtmdlUtmSource`
+`gtmUtmSource`
 
-`gtmdlUtmMedium`
+`gtmUtmMedium`
 
-`gtmdlUtmCampaign`
+`gtmUtmCampaign`
 
-`gtmdlUtmTerm`
+`gtmUtmTerm`
 
-`gtmdlUtmContent`
+`gtmUtmContent`
 
 ### WooCommerce Variables
 
-`gtmdlWooOrdersCount`
+`gtmWooOrdersCount`
