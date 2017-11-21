@@ -2,7 +2,7 @@
 Contributors: luizeof
 Tags: gtm, google-tag-manager
 Tested up to: 4.9.0
-Stable tag: 0.10.0
+Stable tag: 0.10.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 

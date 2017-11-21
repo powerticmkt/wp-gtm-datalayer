@@ -3,7 +3,7 @@
  * Plugin Name: Google Tag Manager DataLayer by Powertic
  * Plugin URI: https://github.com/powertic/wp-gtm-datalayer
  * Description: Google Tag Manager DataLayer with Wordpress Data
- * Version: 0.10.0
+ * Version: 0.10.1
  * Author: Powertic
  * Author URI: https://powertic.com
  * License: GPL3
