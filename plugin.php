@@ -1,9 +1,9 @@
-<?php
+ <?php
 /**
- * Plugin Name: Google Tag Manager DataLayer
+ * Plugin Name: Google Tag Manager Data Layer
  * Plugin URI: https://github.com/powertic/wp-gtm-datalayer
- * Description: Google Tag Manager DataLayer with Wordpress Data
- * Version: 1.0.0-beta2
+ * Description: Google Tag Manager Data Layer with Wordpress Data
+ * Version: 1.0.1
  * Author: Powertic
  * Author URI: https://powertic.com
  * License: GPL3
@@ -46,6 +46,10 @@ function wpgtmdl_datalayer_data()
     // Wordpress current logged user
     $current_user = wp_get_current_user();
 
+    // Mautic Tracking Contact ID
+    $mauticSessionId  = $_COOKIE['mautic_session_id'];
+    $mauticLeadId     = $_COOKIE[$sessionId];
+    $dataLayer["gtmMauticLeadId"] = $mauticLeadId;
 
     $wp_userid = get_current_user_id();
     if ($wp_userid > 0) {
@@ -183,7 +187,7 @@ function wpgtmdl_datalayer_data()
     endforeach;
     echo '});';
     echo '</script>';
-    echo '<!-- end Google Tag Manager Data Layer by luizeof -->';
+    echo '<!-- end Google Tag Manager Data Layer by Powertic -->';
 } // wpgtmdl_datalayer_data()
 
 
